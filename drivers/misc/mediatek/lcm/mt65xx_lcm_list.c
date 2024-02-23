@@ -28,6 +28,9 @@ enum LCM_DSI_MODE_CON lcm_dsi_mode;
 #define LCD_HW_ID_STATUS_ERROR  0x03
 
 struct LCM_DRIVER *lcm_driver_list[] = {
+#if defined(GC9503P_FWP_DSI_VDO_JT_IVO_BA2)
+	&gc9503p_fwp_dsi_vdo_jt_ivo_ba2_lcm_drv,
+#endif
 #if defined(HCT_OTM1285A_DSI_VDO_HD_BOE)
 	&hct_otm1285a_dsi_vdo_hd_boe,
 #endif
