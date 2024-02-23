@@ -13,7 +13,7 @@ jobs:
       CCACHE_NOHASHDIR: "true"
       CCACHE_MAXSIZE: "2G"
       CCACHE_HARDLINK: "true"
-      KERNEL_DEFCONFIG: "maya_bsp_defconfig"
+      KERNEL_DEFCONFIG: "blackghost_defconfig"
       
     steps:
     - name: Checkout
