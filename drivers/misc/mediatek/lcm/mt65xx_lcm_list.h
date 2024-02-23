@@ -23,6 +23,7 @@ extern struct LCM_DRIVER hct_otm1282_dsi_vdo_hd_auo;
 extern struct LCM_DRIVER hct_rm68200_dsi_vdo_hd_cpt;
 extern struct LCM_DRIVER hct_nt35521s_dsi_vdo_hd_boe_50_xld;
 extern struct LCM_DRIVER hct_hx8394d_dsi_vdo_hd_cmi;
+extern struct LCM_DRIVER gc9503p_fwp_dsi_vdo_jt_ivo_ba2;
 
 #ifdef BUILD_LK
 extern void mdelay(unsigned long msec);
