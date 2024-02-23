@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - master
+  # Trigger the workflow on any changes within the repository
+  # including pushes, pulls, tags, etc.
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
